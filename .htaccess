@@ -1,0 +1,10 @@
+
+# HTID:15276514: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:15276514:
+
+# HTID:15716640: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?(www.virtualtechniciansit.cf|virtualtechniciansit.cf|virtualtechnician.000webhostapp.com)(/)?.*$      [NC]
+RewriteRule .*.(.*)$ https://virtualtechniciansit.cf [R,NC]
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:15716640:
